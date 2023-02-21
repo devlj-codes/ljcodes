@@ -1,5 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap');
+h1 {
+    font-family: 'Square Peg', cursive;
+}
+
+body {
+    font-family: 'Azeret Mono', monospace;
+}
+
 .section1 {
     background-image: url(/images/sincerely-media-unsplash.jpg);
     background-position: center;
     background-size: cover;
+}
+
+.section1 h1 {
+    font-size: 7rem;
+}
+
+.aboutMeContainer {
+    background-image: url('https://drive.google.com/uc?export=view&id=1GBTRUCXpwpaRv-rxuGRdfIvj8LOZkJvP');
+    background-size: cover;
+    background-position: center;
+}
+
+.skill-label {
+    width: 25%;
 }

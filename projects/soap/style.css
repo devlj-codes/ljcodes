@@ -1,0 +1,38 @@
+body {
+    background-color: #E0E0E0;
+}
+
+fieldset legend {
+    background-color: #2ca3fa;
+    border-radius: 10px;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+fieldset div>div:first-child {
+    background-color: #fff;
+}
+
+textarea {
+    white-space: pre-wrap;
+}
+
+p {
+    white-space: pre;
+}
+
+#printNote {
+    background-color: #fff;
+    overflow-y: scroll;
+}
+
+@media print {
+    #soapNote {
+        display: none;
+    }
+    #printNote {
+        background-color: #fff;
+        overflow-y: visible;
+        height: 100%;
+    }
+}

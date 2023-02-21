@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="description" content="The Coffeeholic Coder" />
+		<meta
+			name="description"
+			content="Laurence Joy Abuzo | Front-End Developer | The Coffeeholic Coder"
+		/>
 
 		<title>LJ Codes</title>
 
+		<!--  Bootstrap	-->
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
 			rel="stylesheet"
@@ -30,31 +34,43 @@
 		<div
 			class="container-fluid min-vh-100 section1 d-flex flex-wrap justify-content-evenly align-items-center"
 		>
-			<div class="col-12">
-				<h1 class="text-center">Laurence Joy Abuzo</h1>
-				<h2 class="text-center">Front-End Developer</h2>
-				<h3 class="text-center">The Coffeeholic Coder</h3>
+			<div class="container">
+				<div class="col-12">
+					<h1>Laurence Joy Abuzo</h1>
+					<h2>Front-End Developer</h2>
+					<p>The Coffeeholic Coder</p>
+				</div>
 			</div>
 			<!--  Select Language  -->
 		</div>
 
-		<div class="container-fluid">
+		<div class="container-fluid aboutMeContainer pt-5 px-5">
 			<h2 class="text-center">About Me</h2>
 
 			<!-- About Me  -->
 			<div
 				id="about"
-				class="min-vh-100 mw-100 container-fluid d-flex flex-wrap justify-content-around align-items-center p-5"
+				class="mw-100 container-fluid d-flex flex-wrap justify-content-around align-items-center"
 			>
-				<div class="mt-5 img-container w-25">
-					<img src="images/my img.png" alt="Laurence Joy" class="w-100" />
+				<div class="mt-5 img-container col-6">
+					<img
+						src="https://drive.google.com/uc?export=view&id=1vVh2lPx2tIvbB5B7L0h9G2ptZoRiqsFJ"
+						alt="Laurence Joy"
+						class="w-100"
+					/>
 				</div>
-				<div class="text-center col-12 col-sm-12 col-xl-6">
-					<div class="mb-5">
+				<div class="mt-5 col-6 d-md d-lg-none">
+					Hi, I am a Philippine-based developer who loves and enjoy turning
+					designs to a responsive website. Continiously learning various
+					languages and adapting to the latest technologies.
+				</div>
+				<div class="text-center col-lg-6">
+					<div class="mb-5 d-md">
 						Hi, I am a Philippine-based developer who loves and enjoy turning
-						designs to a responsive website.
+						designs to a responsive website. Continiously learning various
+						languages and adapting to the latest technologies.
 					</div>
-					<h5 class="mb-2 text-start">SKILLS</h5>
+					<h5 class="mb-2 text-start mt-5">SKILLS</h5>
 					<div class="d-flex flex-row align-items-center mb-2">
 						<div class="skill-label">HTML</div>
 						<div class="progress flex-fill">
@@ -215,20 +231,24 @@
 		</div>
 
 		<div class="container-fluid">
-			<h2 class="text-center">Sample Projects</h2>
+			<div class="container py-5">
+				<h2 class="text-center">Sample Projects</h2>
+			</div>
 		</div>
 
 		<div class="container-fluid">
-			<h2 class="section-title">I'd love to work with you.</h2>
-			<div>
-				I'm always open to discussing projects or partnership opportunities
+			<div class="container">
+				<h2 class="section-title">I'd love to work with you.</h2>
+				<div>
+					I'm always open to discussing projects or partnership opportunities
+				</div>
+				<button
+					class="btn theme-pill-btn theme-bright-btn mt-4"
+					id="leaveAMsgBtn"
+				>
+					Leave a message
+				</button>
 			</div>
-			<button
-				class="btn theme-pill-btn theme-bright-btn mt-4"
-				id="leaveAMsgBtn"
-			>
-				Leave a message
-			</button>
 		</div>
 
 		<!-- Contact -->
@@ -314,6 +334,6 @@
 			integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
 			crossorigin="anonymous"
 		></script>
-		<script src="script.js"></script>
+		<script type="module" src="script.js"></script>
 	</body>
 </html>
