@@ -27,3 +27,11 @@ body {
 .skill-label {
     width: 25%;
 }
+
+.progress-bar {
+    background-color: #b90e0a;
+}
+
+.btn-primary {
+    background-color: #b90e0a;
+}

@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap');
 body {
     background-color: #E0E0E0;
+    font-family: 'Azeret Mono', monospace;
 }
 
 fieldset legend {
@@ -13,17 +15,13 @@ fieldset div>div:first-child {
     background-color: #fff;
 }
 
-textarea {
-    white-space: pre-wrap;
-}
-
 p {
-    white-space: pre;
+    white-space: pre-wrap;
 }
 
 #printNote {
     background-color: #fff;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 @media print {
@@ -34,5 +32,6 @@ p {
         background-color: #fff;
         overflow-y: visible;
         height: 100%;
+        width: 100%;
     }
 }

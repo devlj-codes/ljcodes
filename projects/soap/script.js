@@ -1,5 +1,5 @@
 import { soapDom } from "./DOM.js";
-import { generateSubjective, generateObjective, generateAssessment, generatePlan } from "./generateNote.js";
+import { generateHeading, generateGeneralInfo, generateSubjective, generateObjective, generateAssessment, generatePlan } from "./generateNote.js";
 
 
 initFieldsetStates(soapDom.fieldsets);
@@ -30,6 +30,8 @@ function initFieldsetStates(fieldsets) {
 function initGeneratePreview() {
     document.addEventListener('change', function() {
         let note = '';
+        note = generateHeading(note);
+        note = generateGeneralInfo(note);
         note = generateSubjective(note);
         note = generateObjective(note);
         note = generateAssessment(note);
