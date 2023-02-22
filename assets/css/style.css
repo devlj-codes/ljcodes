@@ -4,12 +4,12 @@ h1 {
     font-family: 'Square Peg', cursive;
 }
 
-body {
+body:not(i) {
     font-family: 'Azeret Mono', monospace;
 }
 
 .section1 {
-    background-image: url(/images/sincerely-media-unsplash.jpg);
+    background-image: url(../images/sincerely-media-unsplash.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -34,4 +34,13 @@ body {
 
 .btn-primary {
     background-color: #b90e0a;
+    border-color: #000;
+    border-width: 1px;
+}
+
+.btn-primary:hover {
+    background-color: #fff;
+    color: #b90e0a;
+    border-color: #000;
+    border-width: 1px;
 }

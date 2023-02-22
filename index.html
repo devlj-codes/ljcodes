@@ -26,10 +26,70 @@
 			rel="stylesheet"
 		/>
 
-		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+
+		<script
+			src="https://kit.fontawesome.com/43f1c995ea.js"
+			crossorigin="anonymous"
+		></script>
 	</head>
 
 	<body>
+		<div class="navigation fixed-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<nav class="navbar navbar-expand-lg">
+							<a class="navbar-brand" href="index.html">
+								<img src="assets/images/logo.png" alt="Logo" />
+							</a>
+							<!-- Logo -->
+							<button
+								class="navbar-toggler"
+								type="button"
+								data-toggle="collapse"
+								data-target="#navbarSupportedContent"
+								aria-controls="navbarSupportedContent"
+								aria-expanded="false"
+								aria-label="Toggle navigation"
+							>
+								<span class="toggler-icon"></span>
+								<span class="toggler-icon"></span>
+								<span class="toggler-icon"></span>
+							</button>
+
+							<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav ml-auto">
+									<li class="nav-item active">
+										<a class="page-scroll" href="#home">Home</a>
+									</li>
+									<li class="nav-item">
+										<a class="page-scroll" href="#about">About</a>
+									</li>
+									<li class="nav-item">
+										<a class="page-scroll" href="#service">Services</a>
+									</li>
+									<li class="nav-item">
+										<a class="page-scroll" href="#work">Portfolio</a>
+									</li>
+									<li class="nav-item">
+										<a class="page-scroll" href="#blog">Blog</a>
+									</li>
+									<li class="nav-item">
+										<a class="page-scroll" href="#contact">Contact</a>
+									</li>
+								</ul>
+							</div>
+							<!-- navbar collapse -->
+						</nav>
+						<!-- navbar -->
+					</div>
+				</div>
+				<!-- row -->
+			</div>
+			<!-- container -->
+		</div>
+		<!-- navigation -->
 		<!--    -->
 		<div
 			class="container-fluid min-vh-100 section1 d-flex flex-wrap justify-content-evenly align-items-center"
@@ -39,6 +99,7 @@
 					<h1>Laurence Joy Abuzo</h1>
 					<h2>Front-End Developer</h2>
 					<p>The Coffeeholic Coder</p>
+					<button class="btn btn-primary">Contact Me</button>
 				</div>
 			</div>
 			<!--  Select Language  -->
@@ -251,69 +312,96 @@
 
 				<div class="row mb-5">
 					<div class="col">
-						<div class="card">
-							<img src="..." class="card-img-top" alt="..." />
+						<div class="card border-0">
+							<div
+								style="position: relative; padding-bottom: 56.25%; height: 0"
+							>
+								<iframe
+									src="https://www.loom.com/embed/4c77c66a832c4bbf90d9978cdfd073e4"
+									frameborder="0"
+									webkitallowfullscreen
+									mozallowfullscreen
+									allowfullscreen
+									style="
+										position: absolute;
+										top: 0;
+										left: 0;
+										width: 100%;
+										height: 100%;
+									"
+								></iframe>
+							</div>
 							<div class="card-body">
 								<h5 class="card-title">SOAP Note</h5>
 								<p class="card-text">
 									A basic medical form used in clinis/hospitals.
 								</p>
 								<p>HTML CSS Bootstrap VanillaJS</p>
-								<a href="/projects/soap/index.html" class="btn btn-primary"
+								<a
+									href="https://devlj-codes.github.io/soap-note/"
+									class="btn btn-primary"
 									>Check Project</a
 								>
 							</div>
 						</div>
 					</div>
 					<div class="col">
-						<div class="card">
-							<img src="..." class="card-img-top" alt="..." />
+						<div class="card border-0">
+							<img
+								src="https://drive.google.com/uc?export=view&id=15bbEXumIJahK4lIYoijLSVh9tn4ET2dn"
+								class="card-img-top"
+								alt="..."
+							/>
 							<div class="card-body">
 								<h5 class="card-title">WordPress Site</h5>
 								<p class="card-text">A simple WordPress website.</p>
 								<p>WordPress</p>
-								<a href="#" class="btn btn-primary">Check Project</a>
-							</div>
-						</div>
-					</div>
-					<div class="col">
-						<div class="card">
-							<img src="..." class="card-img-top" alt="..." />
-							<div class="card-body">
-								<h5 class="card-title">Data Scraper</h5>
-								<p class="card-text">
-									A basic Python code to search data in a specific website
-								</p>
-								<p>Python</p>
-								<a href="#" class="btn btn-primary">Check Project</a>
+								<a href="#" class="btn btn-primary disabled">Check Project</a>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col">
-						<div class="card">
-							<img src="..." class="card-img-top" alt="..." />
+						<div class="card border-0">
+							<img
+								src="https://drive.google.com/uc?export=view&id=15bbEXumIJahK4lIYoijLSVh9tn4ET2dn"
+								class="card-img-top"
+								alt="..."
+							/>
+							<div class="card-body">
+								<h5 class="card-title">Data Scraper</h5>
+								<p class="card-text">
+									A basic Python code to search data in a specific website
+								</p>
+								<p>Python</p>
+								<a href="#" class="btn btn-primary disabled">Check Project</a>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card border-0">
+							<img
+								src="https://drive.google.com/uc?export=view&id=15bbEXumIJahK4lIYoijLSVh9tn4ET2dn"
+								class="card-img-top"
+								alt="..."
+							/>
 							<div class="card-body">
 								<h5 class="card-title">E-Book static website</h5>
 								<p class="card-text">One of the projects made in college.</p>
 								<p>HTML CSS Bootstrap VanillaJS</p>
-								<a href="#" class="btn btn-primary">Check Project</a>
+								<a href="#" class="btn btn-primary disabled">Check Project</a>
 							</div>
 						</div>
 					</div>
-					<div class="col"></div>
-					<div class="col"></div>
 				</div>
 			</div>
 		</div>
 
-		<div class="container-fluid">
+		<div class="container-fluid py-5">
 			<div class="container">
-				<h2 class="section-title">I'd love to work with you.</h2>
-				<div>
-					I'm always open to discussing projects or partnership opportunities
-				</div>
+				<h2 class="section-title"></h2>
+				<div></div>
 				<button
 					class="btn theme-pill-btn theme-bright-btn mt-4"
 					id="leaveAMsgBtn"
@@ -323,43 +411,56 @@
 			</div>
 		</div>
 
-		<!-- Contact -->
-		<div
-			class="contact p-5 container-fluid text-center d-flex flex-wrap justify-content-evenly align-items-center"
-			id="contact"
-		>
-			<div class="d-none" id="contactFormContainer">
-				<div class="mt-5">
-					<form action="">
-						<div class="my-2 mx-auto">
-							<input
-								type="text"
-								placeholder="Name"
-								class="form-control mx-auto"
-							/>
+		<!--====== CONTACT PART START ======-->
+
+		<section id="contact" class="contact-area pt-125 pb-130 gray-bg">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-8">
+						<div class="section-title text-center pb-25">
+							<h2 class="title">I'd love to work with you.</h2>
+							<p>
+								I'm always open to discussing projects or work opportunities
+							</p>
 						</div>
-						<div class="my-2">
-							<input
-								type="text"
-								placeholder="Email"
-								class="form-control mx-auto"
-							/>
-						</div>
-						<div class="my-2">
-							<textarea
-								placeholder="Message"
-								class="form-control mx-auto"
-							></textarea>
-						</div>
-						<button
-							class="btn theme-pill-btn theme-bright-btn theme-lightest-bgcolor theme-bright-color mt-4"
-						>
-							Submit
-						</button>
-					</form>
+						<!-- section title -->
+					</div>
 				</div>
+				<!-- row -->
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="contact-form pt-30">
+							<form id="contact-form" action="assets/contact.php">
+								<div class="single-form">
+									<input type="text" name="name" placeholder="Name" />
+								</div>
+								<!-- single form -->
+								<div class="single-form">
+									<input type="email" name="email" placeholder="Email" />
+								</div>
+								<!-- single form -->
+								<div class="single-form">
+									<textarea name="message" placeholder="Message"></textarea>
+								</div>
+								<!-- single form -->
+								<p class="form-message"></p>
+								<div class="single-form">
+									<button class="main-btn btn btn-primary" type="submit">
+										Send Message
+									</button>
+								</div>
+								<!-- single form -->
+							</form>
+						</div>
+						<!-- contact form -->
+					</div>
+				</div>
+				<!-- row -->
 			</div>
-		</div>
+			<!-- container -->
+		</section>
+
+		<!-- CONTACT -->
 
 		<!-- Footer -->
 		<footer class="container-fluid p-2">
