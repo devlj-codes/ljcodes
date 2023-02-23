@@ -8,6 +8,10 @@ body:not(i) {
     font-family: 'Azeret Mono', monospace;
 }
 
+nav img {
+    width: 100px;
+}
+
 .section1 {
     background-image: url(../images/sincerely-media-unsplash.jpg);
     background-position: center;
@@ -44,3 +48,22 @@ body:not(i) {
     border-color: #000;
     border-width: 1px;
 }
+
+
+/* ANIMATION - start */
+
+.animate {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.animated {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+
+/* ANIMATION - end */
