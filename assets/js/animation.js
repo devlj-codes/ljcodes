@@ -12,3 +12,15 @@ export const initAnimation = () => {
     const animateEls = document.querySelectorAll('.animate');
     animateEls.forEach((el) => { observer.observe(el) });
 }
+
+export const animate = (animate, el) => {
+    switch (animate) {
+        case 'slide-up':
+
+            break;
+        case 'slide-down':
+            break;
+        case '':
+            break;
+    }
+}

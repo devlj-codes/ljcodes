@@ -12,14 +12,12 @@ nav img {
     width: 100px;
 }
 
-.section1 {
-    background-image: url(../images/sincerely-media-unsplash.jpg);
-    background-position: center;
-    background-size: cover;
+section#home h1 {
+    font-size: 7rem;
 }
 
-.section1 h1 {
-    font-size: 7rem;
+section#home {
+    color: #fff;
 }
 
 .aboutMeContainer {
@@ -49,20 +47,63 @@ nav img {
     border-width: 1px;
 }
 
+#arrowDown {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#arrowDown:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('https://drive.google.com/uc?export=view&id=15FRzSqSdHJTwI9pFvwgxtG7zLAkdqtiT');
+    background-size: cover;
+}
+
+#arrowDown:hover:before {
+    background-image: url('https://drive.google.com/uc?export=view&id=12-xTKagODaHHL-vPZdZ6ns3ChmebHXIA');
+}
+
+section#work,
+footer {
+    background-color: #2f2e41;
+    color: #fff;
+}
+
+section#contact {
+    background-color: #ffe5cd;
+}
+
+section#work .card {
+    background-color: transparent;
+}
+
 
 /* ANIMATION - start */
+
+.animate.slide-up {
+    opacity: 0;
+    transform: translatey(-100%);
+    transition: all 1s;
+}
 
 .animate {
     opacity: 0;
     filter: blur(5px);
-    transform: translateX(-100%);
+    transform: translateY(100%);
     transition: all 1s;
 }
 
 .animated {
     opacity: 1;
     filter: blur(0);
-    transform: translateX(0);
+    transform: translateY(0);
 }
 
 
