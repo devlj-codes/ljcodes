@@ -93,17 +93,21 @@ section#work .card {
     transition: all 1s;
 }
 
-.animate {
-    opacity: 0;
-    filter: blur(5px);
-    transform: translateY(100%);
-    transition: all 1s;
-}
-
-.animated {
+.animated.slide-up {
     opacity: 1;
     filter: blur(0);
     transform: translateY(0);
+}
+
+.animate.fade-in {
+    opacity: 0;
+    transform: translate3d(0, 20px, 0);
+    transition: 1s all ease-in-out;
+}
+
+.animated.fade-in {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
 }
 
 
