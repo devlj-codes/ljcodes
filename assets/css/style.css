@@ -8,8 +8,25 @@ body:not(i) {
     font-family: 'Azeret Mono', monospace;
 }
 
+body a {
+    text-decoration: unset;
+}
+
 nav img {
     width: 100px;
+}
+
+div.navigation {
+    background-color: #fff;
+    box-shadow: #000 1px 1px 10px;
+}
+
+div.navigation a {
+    color: #2f2e41;
+}
+
+div.navigation a:hover {
+    color: #b90e0a;
 }
 
 section#home h1 {
@@ -76,8 +93,14 @@ footer {
     color: #fff;
 }
 
-section#contact {
-    background-color: #ffe5cd;
+section#contact .col:first-child {
+    margin-right: -5%;
+    z-index: 1;
+}
+
+section#contact .col:last-child {
+    background-color: #2f2e41;
+    color: #fff;
 }
 
 section#work .card {
