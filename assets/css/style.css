@@ -1,61 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap');
-h1,
-.h1 {
-    font-family: 'Square Peg', cursive;
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 body:not(i) {
     font-family: 'Azeret Mono', monospace;
+    overflow-x: hidden;
 }
 
 body a {
     text-decoration: unset;
 }
 
-nav img {
-    width: 100px;
-}
-
-div.navigation {
-    background-color: #fff;
-    box-shadow: #000 1px 1px 10px;
-}
-
-div.navigation a {
-    color: #2f2e41;
-    display: inline-block;
-    text-decoration: none;
-    padding: 10px 20px;
-    font-size: 20px;
-}
-
-div.navigation li:not(.active) a:hover {
-    color: #b90e0a;
-}
-
-nav li {
-    display: flex;
-    align-items: center;
-    width: 100px;
-    justify-content: center;
-}
-
-nav li.active {
-    background-color: #b90e0a;
-    transition: 0.2s;
-}
-
-nav li.active a {
-    color: #fff;
+h1,
+.h1 {
+    font-family: 'Square Peg', cursive;
 }
 
 .h1 {
     font-weight: bold;
-}
-
-section#home h1 {
-    font-size: 7rem;
 }
 
 section#home {
@@ -106,6 +72,10 @@ section#home {
     background-image: url('../images/red arrow.png');
 }
 
+section {
+    overflow-x: hidden;
+}
+
 section#work,
 footer {
     background-color: #2f2e41;
@@ -115,6 +85,8 @@ footer {
 section#contact .col:first-child {
     margin-right: -5%;
     z-index: 1;
+    display: flex;
+    align-items: center;
 }
 
 section#contact .col:last-child {
@@ -126,6 +98,73 @@ section#contact .col:last-child {
 section#work .card {
     background-color: transparent;
 }
+
+
+/*  Navbar  */
+
+nav img {
+    width: 100px;
+}
+
+nav {
+    background-color: #fff;
+    box-shadow: #000 1px 1px 10px;
+}
+
+nav a {
+    color: #2f2e41;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+div.navigation nav li:not(.active) a:hover {
+    color: #b90e0a;
+}
+
+nav li.active {
+    background-color: #b90e0a;
+    transition: 0.2s;
+}
+
+nav li.active a {
+    color: #fff;
+}
+
+@media screen and (max-width: 991px) {
+    nav ul {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section#home h1 {
+        font-size: 7rem;
+    }
+    div.collapse.navbar-collapse {
+        justify-content: end;
+        align-items: stretch;
+    }
+    nav,
+    .navigation nav .container {
+        align-items: stretch;
+    }
+    nav ul {
+        justify-content: space-around;
+        width: 50%;
+        margin-left: auto;
+    }
+    nav li {
+        display: flex;
+        align-items: center;
+        width: 100px;
+        justify-content: center;
+    }
+}
+
+
+/*  Navbar  */
 
 
 /* ANIMATION - start */

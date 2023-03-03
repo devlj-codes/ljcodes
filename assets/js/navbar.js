@@ -23,14 +23,3 @@ function initNavItems() {
 export const initNavbar = () => {
     initNavItems();
 }
-
-
-
-document.querySelector('.navbar-toggler').addEventListener('click', function() {
-    this.classList.toggle('active');
-    document.querySelector('.navbar-collapse').classList.add('show');
-});
-
-document.querySelector('.navbar-nav a').addEventListener('click', function() {
-    document.querySelector('.navbar-collapse').classList.remove('show');
-});
