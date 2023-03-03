@@ -98,12 +98,12 @@ section#home {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url('assets/images/white arrow.png');
+    background-image: url('../images/white arrow.png');
     background-size: cover;
 }
 
 #arrowDown:hover:before {
-    background-image: url('assets/images/red arrow.png');
+    background-image: url('../images/red arrow.png');
 }
 
 section#work,
