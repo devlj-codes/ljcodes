@@ -63,7 +63,7 @@ section#home {
 }
 
 .aboutMeContainer {
-    background-image: url('https://drive.google.com/uc?export=view&id=1GBTRUCXpwpaRv-rxuGRdfIvj8LOZkJvP');
+    background-image: url('/assets/images/coffee\ beans.png');
     background-size: cover;
     background-position: center;
 }
@@ -104,12 +104,12 @@ section#home {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url('https://drive.google.com/uc?export=view&id=15FRzSqSdHJTwI9pFvwgxtG7zLAkdqtiT');
+    background-image: url('/assets/images/white\ arrow.png');
     background-size: cover;
 }
 
 #arrowDown:hover:before {
-    background-image: url('https://drive.google.com/uc?export=view&id=12-xTKagODaHHL-vPZdZ6ns3ChmebHXIA');
+    background-image: url('/assets/images/red\ arrow.png');
 }
 
 section#work,
