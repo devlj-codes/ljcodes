@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap');
-h1 {
+h1,
+.h1 {
     font-family: 'Square Peg', cursive;
 }
 
@@ -23,10 +24,34 @@ div.navigation {
 
 div.navigation a {
     color: #2f2e41;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
 }
 
-div.navigation a:hover {
+div.navigation li:not(.active) a:hover {
     color: #b90e0a;
+}
+
+nav li {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: center;
+}
+
+nav li.active {
+    background-color: #b90e0a;
+    transition: 0.2s;
+}
+
+nav li.active a {
+    color: #fff;
+}
+
+.h1 {
+    font-weight: bold;
 }
 
 section#home h1 {
@@ -101,6 +126,7 @@ section#contact .col:first-child {
 section#contact .col:last-child {
     background-color: #2f2e41;
     color: #fff;
+    box-shadow: #2f2e41 5px 5px 10px 1px;
 }
 
 section#work .card {

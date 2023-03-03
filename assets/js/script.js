@@ -1,6 +1,8 @@
 import { initAnimation, animate } from "./animation.js";
+import { initNavbar } from "./navbar.js";
 
 initAnimation();
+initNavbar();
 
 document.querySelector('#arrowDown').addEventListener('click', function() {
 
