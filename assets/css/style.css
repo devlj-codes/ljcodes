@@ -151,14 +151,14 @@ nav li.active a {
         align-items: stretch;
     }
     nav ul {
-        justify-content: space-around;
+        justify-content: flex-end;
         width: 50%;
         margin-left: auto;
     }
     nav li {
         display: flex;
         align-items: center;
-        width: 100px;
+        width: 120px;
         justify-content: center;
     }
 }
